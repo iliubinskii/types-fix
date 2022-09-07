@@ -7,13 +7,13 @@
     "types",
     "typescript"
   ],
-  "homepage": "https://github.com/ilyub/typescript-types",
+  "homepage": "https://github.com/ilyub/types-fix",
   "bugs": {
-    "url": "https://github.com/ilyub/typescript-types/issues"
+    "url": "https://github.com/ilyub/types-fix/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ilyub/typescript-types.git"
+    "url": "git://github.com/ilyub/types-fix.git"
   },
   "license": "ISC",
   "author": "Ilia Liubinskii <admin.phpdev@gmail.com> (https://github.com/ilyub)",
@@ -26,31 +26,30 @@
     "add-tags": "php node_modules/real-config/bin/add-tags.php",
     "browserslist": "browserslist",
     "clear-cache": "cf cache node_modules/.cache",
-    "commitlint": "commitlint --edit",
-    "commitlint-all": "commitlint --config commitlint-all.config.js --from=",
+    "commitlint": "commitlint --from=",
+    "commitlint-next": "commitlint --config commitlint-next.config.js --edit",
     "config-lint": "node node_modules/real-config/bin/config-lint.js",
     "delete-tags": "php node_modules/real-config/bin/delete-tags.php",
     "full-check": "php node_modules/real-config/bin/full-check.php",
     "git:unix": "git config --replace-all core.ignorecase false",
     "git:windows": "git config --replace-all core.ignorecase true",
-    "husky:commit-msg": "npm run commitlint",
+    "husky:commit-msg": "npm run commitlint-next",
     "husky:post-commit": "php node_modules/real-config/bin/post-commit.php",
     "husky:pre-commit": "php node_modules/real-config/bin/pre-commit.php",
     "husky:unset-hooks": "git config --unset core.hooksPath",
     "npm:install": "npm install --no-audit --strict-peer-deps",
     "npm:install-clean": "npm install-clean --no-audit --strict-peer-deps",
-    "npm:publish": "publish-if-not-exists",
     "npm:regenerate-lock-file": "npm install --no-audit --package-lock-only --strict-peer-deps",
     "npm:update": "npm update --no-audit --strict-peer-deps",
     "package-json-lint": "npmPkgJsonLint ./package.json",
-    "prepare": "husky install",
+    "prepare": "node node_modules/real-config/bin/prepare.js",
     "update-package-check": "ncu --dep dev,peer,prod",
     "update-package-force": "ncu --dep dev,peer,prod --upgrade",
     "upgrade": "npm run update-package-force && npm run npm:install"
   },
   "devDependencies": {
-    "eslint-plugin-misc": "^0.1.2",
-    "real-config": "^0.1.1"
+    "eslint-plugin-misc": "^1.2.0",
+    "real-config": "^1.2.0"
   },
   "engines": {
     "node": ">=14.0.0",
@@ -58,8 +57,5 @@
   },
   "publishConfig": {
     "access": "public"
-  },
-  "overrides": {
-    "package-json": "8.1.0"
   }
 }
