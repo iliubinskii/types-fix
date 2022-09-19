@@ -16,7 +16,7 @@
 This package fixes some global types (currently it contains one fix &mdash; see below).
 
 Installation:
-```
+```sh
 npm install --save-dev types-fix
 ```
 
@@ -24,8 +24,9 @@ npm install --save-dev types-fix
 
 This fix replaces _any_ with _unknown_ in some typescript types.
 Use it for better type checking in your project.
-See sample tsconfig.json configuration below:
-```json
+
+```ts
+// tsconfig.json
 {
   "compilerOptions": {
     "typeRoots": [
@@ -37,5 +38,4 @@ See sample tsconfig.json configuration below:
     ]
   }
 }
-
 ```
