@@ -12,24 +12,24 @@
 - [TypeScript any-to-unknown](#typescript-any-to-unknown)
 - [Related packages](#related-packages)
 
-## [](#overview)Overview
+## <a id="overview"></a>Overview
 
 This package fixes some global types (currently it contains one fix &mdash; see below).
 
-## [](#installation)Installation
+## <a id="installation"></a>Installation
 
 ```sh
 npm install --save-dev types-fix
 ```
 
-## [](#typescript-any-to-unknown)TypeScript any-to-unknown
+## <a id="typescript-any-to-unknown"></a>TypeScript any-to-unknown
 
 This fix replaces _any_ with _unknown_ in some TypeScript core types.
 Use it for better type checking.
 
 ### Configuration
 
-```ts
+```jsonc
 // tsconfig.json
 {
   "compilerOptions": {
@@ -44,7 +44,7 @@ Use it for better type checking.
 }
 ```
 
-## [](#related-packages)Related packages
+## <a id="related-packages"></a>Related packages
 
 - [eslint-plugin-misc](https://www.npmjs.com/package/eslint-plugin-misc) &mdash; ESLint plugin.
 - [quasar-extension](https://www.npmjs.com/package/quasar-extension) &mdash; Quasar extension.
