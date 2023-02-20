@@ -54,7 +54,7 @@
     "upgrade": "npm run ncu-upgrade && npm run npm:install"
   },
   "devDependencies": {
-    "real-config": "^1.21.1"
+    "real-config": "^1.22.1"
   },
   "engines": {
     "node": ">=16.0.0",
