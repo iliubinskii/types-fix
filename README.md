@@ -1,9 +1,10 @@
 # Types Fix
 
-[![Stars](https://img.shields.io/github/stars/ilyub/types-fix)](https://github.com/ilyub/types-fix)
 [![Downloads](https://img.shields.io/npm/dm/types-fix)](https://www.npmjs.com/package/types-fix)
 [![Vulnerabilities](https://img.shields.io/snyk/vulnerabilities/npm/types-fix)](https://snyk.io/advisor/npm-package/types-fix)
 [![Dependencies](https://img.shields.io/librariesio/release/npm/types-fix)](https://libraries.io/npm/types-fix)
+[![Stars](https://img.shields.io/github/stars/ilyub/types-fix)](https://github.com/ilyub/types-fix)
+[![Sponsors](https://img.shields.io/github/sponsors/ilyub)](https://github.com/sponsors/ilyub)
 
 ## Table of contents
 
