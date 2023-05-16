@@ -10,7 +10,6 @@
 - [Overview](#overview)
 - [Installation](#installation)
 - [TypeScript any-to-unknown](#typescript-any-to-unknown)
-- [Related packages](#related-packages)
 
 ## <a id="overview"></a>Overview
 
@@ -43,12 +42,3 @@ Use it for better type checking.
   }
 }
 ```
-
-## <a id="related-packages"></a>Related packages
-
-- [eslint-plugin-misc](https://www.npmjs.com/package/eslint-plugin-misc) &mdash; ESLint plugin.
-- [quasar-extension](https://www.npmjs.com/package/quasar-extension) &mdash; Quasar extension.
-- [real-fns](https://www.npmjs.com/package/real-fns) &mdash; A collection of utility functions.
-- [real-classes](https://www.npmjs.com/package/real-classes) &mdash; A collection of utility classes.
-- [real-facades](https://www.npmjs.com/package/real-facades) &mdash; Facades (each facade provides interface to pluggable implementation).
-- [real-service-providers](https://www.npmjs.com/package/real-service-providers) &mdash; Facade implementations.
