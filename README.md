@@ -1,4 +1,4 @@
-# Types Fix
+# Types fix
 
 [![Downloads](https://img.shields.io/npm/dm/types-fix)](https://www.npmjs.com/package/types-fix)
 [![Vulnerabilities](https://img.shields.io/snyk/vulnerabilities/npm/types-fix)](https://snyk.io/advisor/npm-package/types-fix)

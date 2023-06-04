@@ -2,7 +2,7 @@
   "name": "types-fix",
   "version": "1.0.4",
   "private": false,
-  "description": "Fixes for global types.",
+  "description": "Types fix.",
   "keywords": [
     "ts",
     "types",
