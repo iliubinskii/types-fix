@@ -10,17 +10,17 @@
     "typescript",
     "utility"
   ],
-  "homepage": "https://github.com/ilyub/types-fix",
+  "homepage": "https://github.com/iliubinskii/types-fix",
   "bugs": {
-    "url": "https://github.com/ilyub/types-fix/issues"
+    "url": "https://github.com/iliubinskii/types-fix/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ilyub/types-fix.git"
+    "url": "git://github.com/iliubinskii/types-fix.git"
   },
   "license": "ISC",
-  "author": "Ilia Liubinskii <admin.phpdev@gmail.com> (https://github.com/ilyub)",
-  "publisher": "ilyub",
+  "author": "Ilia Liubinskii <admin.phpdev@gmail.com> (https://github.com/iliubinskii)",
+  "publisher": "iliubinskii",
   "files": [
     "/typescript-any-to-unknown",
     "!/typescript-any-to-unknown/original"
